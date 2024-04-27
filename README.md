@@ -40,3 +40,8 @@ docker build -t rock .
 ```shell
 docker run -p 7815:7815 -d rock
 ```
+
+### Connect to the game
+```shell
+telnet localhost 7815 
+```
